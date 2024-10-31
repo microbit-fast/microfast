@@ -2,8 +2,6 @@ CC = arm-none-eabi-gcc
 AS = arm-none-eabi-as
 LD = arm-none-eabi-ld
 OBJCOPY = arm-none-eabi-objcopy
-OBJDUMP = arm-none-eabi-objdump
-STRIP = arm-none-eabi-strip
 
 SRCS = hardware.s main.cpp
 
