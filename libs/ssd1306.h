@@ -246,7 +246,11 @@ namespace oled {
                 for (int j = 0; j < 11; j++) {
                     for (int k = 0; k < 8; k++) {
                         if (font[text[i] - 32][j] & (0x01 << k)) {
-                            setPx(x + ((i - lineStart) * 8) + (8 - k), y + (line * 10) + j, 1);
+                            if (toggle) {
+                                togglePx(x + ((i - lineStart) * 8) + (8 - k), y + (line * 10) + j);
+                            } else {
+                                setPx(x + ((i - lineStart) * 8) + (8 - k), y + (line * 10) + j, color);
+                            }
                         }
                     }
                 }
