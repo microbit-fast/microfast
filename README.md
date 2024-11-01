@@ -74,7 +74,7 @@ int main() {
 ```
 
 ## Compilation
-Simply call `make` to compile and flash the program to microbit.
+Simply call `make` to compile and flash the program to microbit. If you only want to compile the project, call `make noflash`.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
