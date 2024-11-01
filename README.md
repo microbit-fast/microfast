@@ -38,7 +38,7 @@ cd microfast
 
 ## Quick start
 
-Open `main.cpp` in text editor. Here is example, how to use the library:
+Open `main.cpp` in text editor. Here is an example of how to use the library:
 
 ```cpp
 #include "microbit.h"                                                        // include the library 
